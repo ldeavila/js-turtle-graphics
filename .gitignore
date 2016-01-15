@@ -3,4 +3,5 @@
 
 #Third-party Modules
 node_modules/
+jspm_packages/
 
