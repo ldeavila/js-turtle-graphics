@@ -1,0 +1,6 @@
+#IDE
+.idea/
+
+#Third-party Modules
+node_modules/
+
