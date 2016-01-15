@@ -1,0 +1,27 @@
+{
+  "name": "js-turtle-graphics",
+  "version": "0.0.1",
+  "description": "Turtle graphics implemented in javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldeavila/js-turtle-graphics.git"
+  },
+  "keywords": [
+    "turtle",
+    "graphics",
+    "javascript"
+  ],
+  "author": "Luis De Avila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ldeavila/js-turtle-graphics/issues"
+  },
+  "homepage": "https://github.com/ldeavila/js-turtle-graphics#readme",
+  "devDependencies": {
+    "jspm": "^0.16.23"
+  }
+}
