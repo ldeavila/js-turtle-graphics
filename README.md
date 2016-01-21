@@ -9,3 +9,10 @@
 ## Setup
 1. Globally install jspm `npm install -g jspm`
 2. Run `npm install`
+3. Run `jspm install`
+
+## Running the app
+`npm start`
+
+## Running tests
+`npm test`
