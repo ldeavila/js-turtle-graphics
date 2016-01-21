@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Turtle Graphics</title>
+  <!--
+      Need zone.js because we are not loading angular2/bundles/angular2-polyfills.js
+      See: https://github.com/angular/angular/issues/5304
+  -->
+  <script src="./jspm_packages/npm/zone.js@0.5.10/dist/zone.js"></script>
+  <script src="./jspm_packages/system.js"></script>
+  <script src="./config.js"></script>
+  <script>
+    System.import('./app/boot.js');
+  </script>
+</head>
+<body>
+<h1>JS Turtle Graphics</h1>
+<app>Loading...</app>
+</body>
+</html>
