@@ -1,9 +1,11 @@
 {
   "name": "js-turtle-graphics",
   "version": "0.0.1",
-  "description": "Turtle graphics implemented in javascript.",
-  "main": "index.js",
+  "description": "Turtle graphics implemented in javascript",
+  "main": "app.js",
   "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +24,26 @@
   },
   "homepage": "https://github.com/ldeavila/js-turtle-graphics#readme",
   "devDependencies": {
-    "jspm": "^0.16.23"
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "jspm": "^0.16.24",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.6",
+    "karma-jspm": "^2.0.2",
+    "lite-server": "^1.3.4"
+  },
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.1",
+      "lodash": "npm:lodash@^4.0.0",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.3",
+      "zone.js": "npm:zone.js@^0.5.10"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
   }
 }
