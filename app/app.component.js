@@ -4,7 +4,7 @@ let app = Component({
   selector: 'app'
 })
   .View({
-    template: '<div>{{message}}</div>'
+    templateUrl: './app/app.component.html'
   })
   .Class({
     constructor: function () {
