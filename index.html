@@ -14,7 +14,8 @@
     (function () {
       'use strict';
       document.addEventListener('DOMContentLoaded', function () {
-        System.import('./app/boot.js');
+        System.import('./app/boot.js')
+          .catch(console.error.bind(console));
       });
     })();
   </script>
