@@ -8,8 +8,8 @@ let app = Component({
   })
   .Class({
     constructor: function () {
-      this.message = 'Canvas will go here.'
+      this.message = 'Canvas will go here.';
     }
   });
 
-export {app}
+export {app};

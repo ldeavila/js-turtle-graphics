@@ -7,7 +7,7 @@
  general
 
 ## Setup
-1. Globally install jspm `npm install -g jspm`
+1. Globally install jspm gulp and eslint `npm install -g jspm gulp eslint`
 2. Run `npm install`
 3. Run `jspm install`
 

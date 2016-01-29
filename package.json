@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/ldeavila/js-turtle-graphics#readme",
   "devDependencies": {
+    "eslint": "^1.10.3",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
     "jasmine": "^2.4.1",
     "jasmine-core": "^2.4.1",
     "jspm": "^0.16.24",
