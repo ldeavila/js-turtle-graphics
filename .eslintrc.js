@@ -15,7 +15,11 @@ module.exports = {
     "semi": [
       2,
       "always"
-    ]
+    ],
+    "eqeqeq": [
+      2,
+      "allow-null"
+    ],
   },
   "env": {
     "es6": true,
