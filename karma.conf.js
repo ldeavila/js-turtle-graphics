@@ -23,7 +23,9 @@ module.exports = function (config) {
         'jspm_packages/npm/zone.js@0.5.10/lib/zone.js', // Not: ./jspm_packages/npm/zone.js@0.5.10/dist/zone.js
         'jspm_packages/npm/reflect-metadata@0.1.3/Reflect.js',
         'app/app.component.js',
-        'app/app.component.test.js'
+        'app/app.component.test.js',
+        'app/utils/utils.module.js',
+        'app/utils/utils.module.test.js'
       ]
     },
 
