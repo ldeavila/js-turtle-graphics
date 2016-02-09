@@ -1,6 +1,5 @@
 import {Component} from 'angular2/core';
-
-let app = Component({
+let App = Component({
   selector: 'app'
 })
   .View({
@@ -12,4 +11,4 @@ let app = Component({
     }
   });
 
-export {app};
+export {App}
