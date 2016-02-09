@@ -4,10 +4,10 @@
  * @param input
  * @returns {boolean}
  */
-function validateInput(input) {
+function validateCommand(input) {
   let regEx = /(^(up|down|left|right)$)/;
 
   return regEx.test(input);
 }
 
-export {validateInput}
+export {validateCommand}

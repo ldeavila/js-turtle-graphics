@@ -2,22 +2,22 @@ import * as utils from './utils.module.js';
 
 describe('utils.module.js', () => {
 
-  describe('validateInput()', () => {
+  describe('validateCommand()', () => {
 
     it('should return true when the input value is up', () => {
-      expect(utils.validateInput('up')).toBe(true);
+      expect(utils.validateCommand('up')).toBe(true);
     });
 
     it('should return true when the input value is down', () => {
-      expect(utils.validateInput('down')).toBe(true);
+      expect(utils.validateCommand('down')).toBe(true);
     });
 
     it('should return true when the input value is left', () => {
-      expect(utils.validateInput('left')).toBe(true);
+      expect(utils.validateCommand('left')).toBe(true);
     });
 
     it('should return true when the input value is right', () => {
-      expect(utils.validateInput('right')).toBe(true);
+      expect(utils.validateCommand('right')).toBe(true);
     });
 
   });
