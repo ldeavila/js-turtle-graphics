@@ -1,4 +1,4 @@
-import * as utils from './utils.module.js';
+import * as utils from './utils.js';
 
 describe('utils.module.js', () => {
 

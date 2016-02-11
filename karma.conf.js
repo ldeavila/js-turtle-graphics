@@ -24,8 +24,8 @@ module.exports = function (config) {
         'jspm_packages/npm/reflect-metadata@0.1.3/Reflect.js',
         'app/app.component.js',
         'app/app.component.test.js',
-        'app/utils/utils.module.js',
-        'app/utils/utils.module.test.js'
+        'app/utils/utils.js',
+        'app/utils/utils.test.js'
       ]
     },
 
