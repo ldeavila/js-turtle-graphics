@@ -25,7 +25,9 @@ module.exports = function (config) {
         'app/app.component.js',
         'app/app.component.test.js',
         'app/utils/utils.js',
-        'app/utils/utils.test.js'
+        'app/utils/utils.test.js',
+        'app/turtle/turtle.js',
+        'app/turtle/turtle.test.js'
       ]
     },
 
