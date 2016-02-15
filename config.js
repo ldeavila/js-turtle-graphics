@@ -7,7 +7,6 @@ System.config({
       "optimisation.modules.system"
     ]
   },
-
   paths: {
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
@@ -18,8 +17,10 @@ System.config({
     "babel": "npm:babel-core@5.8.35",
     "babel-runtime": "npm:babel-runtime@5.8.35",
     "core-js": "npm:core-js@1.2.6",
+    "jquery": "npm:jquery@2.2.0",
     "lodash": "npm:lodash@4.0.0",
     "reflect-metadata": "npm:reflect-metadata@0.1.3",
+    "velesin/jasmine-jquery": "github:velesin/jasmine-jquery@2.1.1",
     "zone.js": "npm:zone.js@0.5.10",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
