@@ -1,1 +1,6 @@
-<div>{{message}}</div>
+<!-- TODO: Using two-way binding which is not needed. Need to change to one-way/observable? or use ngForm? -->
+<input type="text"
+       class="form-control"
+       #command
+       (keyup)="onKeyUp($event, command.value)">
+<div class="error-message">{{message}}</div>
