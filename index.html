@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>JS Turtle Graphics</title>
+  <!-- TODO: Use JSPM and add css build task -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
   <!--
       Need zone.js because we are not loading angular2/bundles/angular2-polyfills.js
       See: https://github.com/angular/angular/issues/5304
@@ -19,9 +23,60 @@
       });
     })();
   </script>
+
+  <!-- TODO: Externalize styles -->
+  <style type="text/css">
+    canvas {
+      border: 1px solid #000000;
+    }
+
+    .error-message {
+      color: #ff0000;
+    }
+
+  </style>
+
 </head>
 <body>
-<h1>JS Turtle Graphics</h1>
-<app>Loading...</app>
+<!--TODO: Need to figure out how to have component access canvas tag when defined inside component template -->
+<div class="container">
+  <div class="page-header">
+    <h1>Turtle</h1>
+    <p class="lead">Hi. Play with me.</p>
+  </div>
+
+  <div class="row">
+    <!-- Canvas -->
+    <div class="col-md-8">
+      <canvas id="turtle-canvas"
+              width="600"
+              height="600">
+      </canvas>
+    </div>
+    <!-- Sidebar -->
+    <div class="col-md-4">
+      <h2>
+        <span class="glyphicon glyphicon-arrow-up"></span>
+        <span>Go Up. Type, up</span>
+      </h2>
+      <h2>
+        <span class="glyphicon glyphicon-arrow-down"></span>
+        <span>Go Down. Type, down</span>
+      </h2>
+      <h2>
+        <span class="glyphicon glyphicon-arrow-left"></span>
+        <span>Go Left. Type, left</span>
+      </h2>
+      <h2>
+        <span class="glyphicon glyphicon-arrow-right"></span>
+        <span>Go Right. Type, right</span>
+      </h2>
+      <div>
+        <!-- Main app -->
+        <app>Loading...</app>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
