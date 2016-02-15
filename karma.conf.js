@@ -22,12 +22,17 @@ module.exports = function (config) {
       loadFiles: [
         'jspm_packages/npm/zone.js@0.5.10/lib/zone.js', // Not: ./jspm_packages/npm/zone.js@0.5.10/dist/zone.js
         'jspm_packages/npm/reflect-metadata@0.1.3/Reflect.js',
-        'app/app.component.js',
-        'app/app.component.test.js',
+        'jspm_packages/npm/jquery@2.2.0/dist/jquery.min.js',
+        'jspm_packages/github/velesin/jasmine-jquery@2.1.1.js',
+        //FIXME: Need to fix app.component test. Research how to load canvas into dom before component loads
+        //'app/app.component.js',
+        //'app/app.component.test.js',
         'app/utils/utils.js',
         'app/utils/utils.test.js',
         'app/turtle/turtle.js',
-        'app/turtle/turtle.test.js'
+        'app/turtle/turtle.test.js',
+        'app/turtle/movement/movement.js',
+        'app/turtle/movement/movement.test.js'
       ]
     },
 
